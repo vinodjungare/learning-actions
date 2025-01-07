@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: hello World Action
         run: |
-          curl -H 'Autorization: Bearer ${{secrets.API_KEY }}" https://www.google.co.in
+          curl -H "Autorization: Bearer ${{secrets.API_KEY }}" https://www.google.co.in
